@@ -1,0 +1,233 @@
+= 2.0.5 =
+* Bugfix for Elementor conflict. 
+* Added support for WCFM Marketplace plugin post types. 
+* Bugfix to URL Rewriting.
+* CORS compatibility improvements. 
+
+= 2.0.4 =
+* Bug fixes. 
+
+= 2.0.3 =
+* Bug fixes. 
+
+= 2.0.2 =
+* Bug fixes. 
+
+= 2.0.1 =
+* Performance improvements and bug fixes. 
+
+= 2.0 =
+* Major plugin refactor.
+* Fixes to Yoast SEO integration. 
+
+= 1.9.9 =
+* Pagination added to the plugin settings area. 
+* The plugin now automatically sets the default Microsite homepage to the first mapping when the current default is removed. 
+* Bug fix to saving Selective Rewriting setting. 
+* Bug fixes to saving internationalized domains. 
+* Bug fixes to multisite integration. 
+* Misc plugin and theme conflicts resolved. 
+
+= 1.9.8 =
+* Improved Global URL Rewriting to handle wp_menu() function.
+* Internationalized domains are now supported.
+* Custom Taxonomies and CPTs now supported. 
+* Bug fix for WooCommerce Cart ajax updates. 
+* Updates to child page slug and child page mapping. 
+* Conflict with Contact Form 7 submission confirmation messages resolved. 
+
+= 1.9.7 =
+* Ability to map empty categories now possible.
+* General bug fixes.
+* Small UI updates. 
+* Update Freemius SDK. 
+
+= 1.9.6 =
+* Fixes to meta information on Yoast SEO integration. 
+
+= 1.9.5 =
+* Yoast SEO integration added! 
+* Bugfix for mapping blog pages.
+* Custom tables now use the default DB engine.
+
+= 1.9.4 =
+* Update Freemius SDK. 
+* Added error message when no published resource is selected for a mapping.
+* Added a save button below mappings and made all save buttons save all settings. 
+* Fixes to jquery conflicts. 
+* Added support for Bedrock configuration. 
+
+= 1.9.3 =
+* Update Freemius SDK. 
+
+= 1.9.2  = 
+* Added Global Parent Page mapping.
+* Update to UI to display hierarchy of parent pages. 
+* Favicon fixes. 
+* Fix to Global URL Rewriting. 
+* Improvement for Crockblocks compatibility. 
+* Rankmath compatibility bug fix.
+* Freemius SDK update. 
+
+= 1.9.1  = 
+* Bugfix to handle when plugins are installed in non-default directory.
+* Updates to UI. 
+
+= 1.9.0 =
+* New user interface. 
+* Added REST API for adding/deleting mappings. 
+* General bug fixes and stability improvements. 
+
+= 1.8.4 =
+* Fixed URL rewriting issue which was duplicating strings in the URL. 
+
+= 1.8.3 =
+* Fixed conflict with plugin Variation Swatches for WooCommerce. 
+
+= 1.8.2 =
+* Fixed conflict with Plesk while Global Domain Mapping is enabled.
+* Updated Freemius SDK to v2.4.5. 
+
+= 1.8.1 =
+* Bug fix for search mechanism not working in some cases. 
+* Multisite improvements when uninstalling the plugin on network sites. 
+* Bugfix for Global URL Rewriting not applying correctly. 
+
+= 1.8 = 
+* Multisite integration is now available! 
+* Freemius SDK update to v2.4.4. 
+
+= 1.7.7 =
+* We’ve added support for sites that are installed as a subdirectory. When a subdirectory install is detected, the .htaccess file is updated with a special snippet to support domain mapping. 
+
+= 1.7.6 =
+* Updates to WPCS integration. 
+
+= 1.7.5 =
+* Integration with Multiple Domain Mapping plugin to easily import mappings. 
+
+= 1.7.4 =
+* Bugfix for DB migration issue on 1.7.3. 
+
+= 1.7.3 =
+* Added Favicon per domain. 
+* We’ve resolved some complexities that restricted multiple mappings to the same published resource. Now one published resource can have multiple domains attached to it. 
+* Simultaneously mapping a domain with both the root domain and the root domain + subdirectory is now possible. 
+* Resolved issues with adding more than 20 mapped domains.
+
+= 1.7.2 =
+* Further improvements to the WPCS.io integration.
+* Styling/layout improvements to the Settings area. 
+* Fix for Wordence. 
+
+= 1.7.1 =
+* Added WPCS.io integration. SaaS platforms using WPCS can now offer their clients full domain management of their Tenants.
+
+= 1.7 =
+* WooCommerce Shop page mapping support.
+* Added capability to enable mapping of all WooCommerce products by simply mapping the Shop page.
+* Added support for WordPress taxonomies (both native and custom). Taxonomies refer to grouping posts together based on a select number of relationships, like Archives or Categories.
+* Added option to enable mapping of all Custom Post Types within a custom taxonomy by just mapping the taxonomy. 
+* Added the option to rewrite all URLs on a mapped page to the mapped domain with Selective Rewriting or Global Rewriting. 
+
+= 1.6.7 = 
+* Fixed an issue with admin_url last param existence.
+
+= 1.6.6 = 
+* Fixed a bug that prevented editing content in Elementor while free version of DMS was activated. 
+
+= 1.6.5 = 
+* Fix for critical error when uploading multiple Freemius plugins with icons designated. 
+
+= 1.6.4 =
+* Fixes for conflicts with Yoast SEO and Jupiter theme. 
+
+= 1.6.3 =
+* The plugin now adds a file into the mu-plugins directory, causing DMS files to be loaded first in order to rewrite some URLs defined by 3rd party plugins. Previously, if DMS was loaded after other plugins, there could be conflicts. 
+* With the mu-plugins upgrade, we can now provide temporary fixes for plugin conflicts while we work with other teams to improve compatibility. 
+
+= 1.6.2 =
+* Fixed an issue where WordPress icons would be missing in some cases. 
+
+= 1.6.1 =
+* Fixed an issue where subdomain mappings were showing too many redirects when the "Force redirect to mapped pages" option was enabled. 
+
+= 1.6 =
+* Added Subdirectory mapping! (PRO)
+* Major improvement to the way data is stored in the database with custom tables instead of inside the wp_options table.
+* Fixes to global domain mapping.
+* Fixed an issue appearing in website health check.
+* Added an option to fully delete all plugin settings and data on uninstall. 
+
+= 1.5.2 =
+* Fixed conflict with WooCommerce JS
+
+= 1.5.1 =
+* Bugfix causing upgrade issues 
+
+= 1.5 = 
+* Translated into Spanish, Italian, German, French, Chinese, Japanese, Russian, Indonesian, Dutch, Portuguese, and Turkish
+* Added Global Domain Mapping for PRO version
+* Fixed a bug about forcing visitors to view a mapped domain for the homepage
+
+= 1.4.7 = 
+* Global domain mapping is now supported, so you don’t have to select every post individually anymore! 
+* Bugfix to stop redirects when the homepage is set in WordPress admin. 
+
+= 1.4.6 = 
+* UI text upgrades/bugfixes
+* You can now create “subsites” by selecting multiple posts, pages, or custom post types for a single domain
+
+= 1.4.5 = 
+* Force site visitors to see the mapped domain of a page (e.g. - disallow visitors to see the primary domain of a page).
+* Ensured WP 5.8 compatibility.
+* Ensured PHP8 compatibility.
+* Update WP Admin menu item to be a top level menu item instead of a submenu item to find it more easily.
+
+
+= 1.4.4 = 
+* Added support for query strings to PRO version
+* Updated free-premium upgrade flow. 
+
+= 1.4.3 = 
+* Updated Freemius SDK
+
+= 1.4.2 =
+* Added UI message about server configuration requirements. 
+
+= 1.4.1 =
+Freemius integration means that: 
+* Users can get in touch with our team for feature requests, questions, or issues of any kind directly in the WP Admin. 
+* Users can upgrade plans and manage their license directly in the WP Admin.
+* Improved Security & Privacy options allow users to choose what you do with your data via the opt-in mechanism.
+* The Gaucho Plugins development team can focus on creating better features for Domain Mapping System. 
+
+= 1.4 =
+* Adapted to work with WordPress 5.5
+
+= 1.3.2 =
+* Show all posts/pages/cpt-posts
+
+= 1.3.1 =
+* Added support for Blogpost Categories
+
+= 1.3 =
+* Code Refactoring, got rid of DMS Menu-Class
+* Added support for Posts
+* Added support for CPT Archives
+* Some Admin-UI tweaks (chosen.js instead of HTML-Select, Post Type Selection)
+* Tested with [WordPress MU Domain Mapping Plugin](http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping)
+* To provide MU support, users must now be able to change settings instead of installing plugins to use DMS Options (Capabilities).
+
+= 1.2.1 =
+* Fixed empty <select> Bug
+
+= 1.2 =
+* Added support for Custom Post Types
+
+= 1.1 = 
+* Instead of strange page hack, modify page query
+* Remove kill switch as it is unnecessary
+
+= 1.0 =
+* No changes - initial release.

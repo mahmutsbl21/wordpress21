@@ -1,0 +1,499 @@
+# Copyright (C) 2024 Gaucho Plugins
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Domain Mapping System 2.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/domain-mapping-system\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-19T16:01:07+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: domain-mapping-system\n"
+
+#. Plugin Name of the plugin
+msgid "Domain Mapping System"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://gauchoplugins.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Domain Mapping System is the most powerful way to manage alias domains and map them to any published resource - creating Microsites with ease!"
+msgstr ""
+
+#. Author of the plugin
+msgid "Gaucho Plugins"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:3
+msgid "Are you sure to change these settings?"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:5
+msgid "The choice is yours."
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:7
+#: templates/option-page.php:107
+msgid "Select the domain [+path] to serve for all unmapped pages:"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:9
+#: templates/option-page.php:110
+msgid "Select domain"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:11
+msgid "Warning! You will be logged out, and you will need to login again using the new domain. Be sure you know your login details. It may take up to 3 minutes for the change to process."
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:13
+msgid "Upload Image"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:15
+msgid "Select and Crop"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:17
+msgid "Delete"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:19
+msgid "Are you sure you would like to avoid importing mappings form Multiple Domain Mapping?"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:21
+msgid "Are you sure you would like to import mappings from Multiple Domain Mapping? Warning: Ensure you have a backup available, as errors may occur."
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:23
+#: templates/seo/yoast/settings.php:104
+#: templates/seo/yoast/settings.php:141
+msgid "Select image"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:25
+#: templates/seo/yoast/settings.php:140
+msgid "Replace image"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:27
+msgid "Use the radio button to select a Microsite homepage. Read our {0} documentation {1} for details."
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:29
+msgid "Enter Mapped Domain"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:30
+msgid "Enter Subdirectory (optional)"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:31
+msgid "Select the Published Content to Map for this Domain."
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:32
+msgid "Custom HTML Code"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:33
+msgid "Favicon per Domain"
+msgstr ""
+
+#: assets/js/localizations/js-translations.php:34
+msgid "Code here"
+msgstr ""
+
+#: includes/admin/class-dms-admin.php:132
+msgid "You do not have the permissions to access this page."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mapping-values-controller.php:379
+msgid "Unique identifier for the mapping value."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mapping-values-controller.php:385
+msgid "ID of the associated mapping."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mapping-values-controller.php:391
+msgid "ID of the mapped object (e.g., term or post)."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mapping-values-controller.php:398
+msgid "Type of the mapped object (e.g., term or post)."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mapping-values-controller.php:406
+msgid "Type of mapping (primary or secondary)."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mappings-controller.php:419
+msgid "%s is required."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mappings-controller.php:440
+msgid "Unique identifier for the mapping."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mappings-controller.php:446
+msgid "Host name for the mapping."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mappings-controller.php:452
+msgid "Path for the mapping."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mappings-controller.php:457
+msgid "Attachment id of the mapping."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-mappings-controller.php:462
+msgid "Custom html of the mapping."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-settings-controller.php:144
+msgid "Unique key for the setting."
+msgstr ""
+
+#: includes/api/v1/controllers/class-dms-settings-controller.php:151
+msgid "Value of the setting."
+msgstr ""
+
+#: includes/data-objects/class-dms-data-object.php:78
+msgid "Error on save."
+msgstr ""
+
+#: includes/data-objects/class-dms-data-object.php:172
+#: includes/data-objects/class-dms-data-object.php:190
+msgid "Object not found"
+msgstr ""
+
+#: includes/data-objects/class-dms-data-object.php:252
+msgid "Setting was not found"
+msgstr ""
+
+#: includes/integrations/yoast/class-dms-seo-yoast__premium_only.php:200
+msgid "Domain Mapping"
+msgstr ""
+
+#: includes/repositories/class-dms-mapping-repository.php:33
+msgid "Unknown method"
+msgstr ""
+
+#: includes/utils/class-dms-helper.php:59
+msgid "Technical error"
+msgstr ""
+
+#: templates/option-page.php:21
+msgid "Domain Mapping System Configuration"
+msgstr ""
+
+#: templates/option-page.php:23
+msgid "Important!"
+msgstr ""
+
+#: templates/option-page.php:26
+msgid "This plugin requires configuration with your DNS host and on your server (cPanel, etc). Please see %1$sour documentation%2$s for configuration requirements."
+msgstr ""
+
+#: templates/option-page.php:36
+msgid "Domains"
+msgstr ""
+
+#: templates/option-page.php:43
+msgid "+ Add Domain Map Entry"
+msgstr ""
+
+#: templates/option-page.php:54
+#: templates/option-page.php:431
+#: templates/option-page.php:545
+msgid "Save"
+msgstr ""
+
+#: templates/option-page.php:65
+msgid "See our documentation for more"
+msgstr ""
+
+#: templates/option-page.php:75
+msgid "Additional Options"
+msgstr ""
+
+#: templates/option-page.php:98
+msgid "Global Domain Mapping"
+msgstr ""
+
+#: templates/option-page.php:99
+msgid "Enable Global Domain Mapping, which means that all pages will be served for all mapped domains. Read more in our %1$s Documentation%2$s."
+msgstr ""
+
+#: templates/option-page.php:125
+#: templates/option-page.php:153
+#: templates/option-page.php:182
+#: templates/option-page.php:211
+#: templates/option-page.php:239
+#: templates/option-page.php:277
+#: templates/option-page.php:307
+#: templates/option-page.php:335
+#: templates/option-page.php:369
+#: templates/option-page.php:398
+#: templates/seo/yoast/settings.php:17
+#: templates/seo/yoast/settings.php:206
+msgid "Upgrade"
+msgstr ""
+
+#: templates/option-page.php:147
+msgid "Global Archive Mapping"
+msgstr ""
+
+#: templates/option-page.php:148
+msgid "All posts within an archive or category automatically map to the specified domain (archive mappings override Global Domain Mapping). Read more in our %1$s Documentation%2$s."
+msgstr ""
+
+#: templates/option-page.php:176
+msgid "Global Parent Page Mapping"
+msgstr ""
+
+#: templates/option-page.php:177
+msgid "Automatically map all pages attached to a Parent Page.  Read more in our %1$s Documentation%2$s."
+msgstr ""
+
+#: templates/option-page.php:205
+msgid "Global Product Mapping"
+msgstr ""
+
+#: templates/option-page.php:206
+msgid "When you map a domain to the Shop page, all products on your site will be available through that domain. Read more in our %1$s Documentation%2$s."
+msgstr ""
+
+#: templates/option-page.php:234
+msgid "Redirection"
+msgstr ""
+
+#: templates/option-page.php:235
+msgid "Force site visitors to see only mapped domains of a page (e.g. - disallow visitors to see the primary site domain version of a page). Read more in our %1$s Documentation%2$s."
+msgstr ""
+
+#: templates/option-page.php:262
+msgid "URL Rewriting"
+msgstr ""
+
+#: templates/option-page.php:263
+msgid "Rewrite all URLs on a mapped domain with:"
+msgstr ""
+
+#: templates/option-page.php:267
+msgid "Global Rewriting"
+msgstr ""
+
+#: templates/option-page.php:269
+msgid "Selective Rewriting"
+msgstr ""
+
+#: templates/option-page.php:272
+msgid "%s Warning: %s  Global Rewriting may create dead links if you haven’t mapped internally linked pages properly. Read more in our %s Documentation > %s"
+msgstr ""
+
+#: templates/option-page.php:301
+msgid "Parent Page Slugs"
+msgstr ""
+
+#: templates/option-page.php:302
+msgid "Remove Parent Page slugs from mapped Child Page URLs. Read more in our %1$s Documentation%2$s."
+msgstr ""
+
+#: templates/option-page.php:330
+msgid "Query String Parameters"
+msgstr ""
+
+#: templates/option-page.php:331
+msgid "Enable support for query string parameters (e.g. - UTM, etc). Read more in our %1$s Documentation%2$s."
+msgstr ""
+
+#: templates/option-page.php:343
+msgid "Yoast SEO"
+msgstr ""
+
+#: templates/option-page.php:363
+msgid "Duplicate Yoast SEO Options"
+msgstr ""
+
+#: templates/option-page.php:364
+msgid "Each mapped page will have duplicated Yoast SEO options for each mapped domain tied to it.  Read more in our %1$s Documentation%2$s."
+msgstr ""
+
+#: templates/option-page.php:392
+msgid "Yoast Sitemap per Domain"
+msgstr ""
+
+#: templates/option-page.php:393
+msgid "Dynamically generate a unique sitemap per domain. Read more in our %1$s Documentation%2$s."
+msgstr ""
+
+#: templates/option-page.php:420
+msgid "Data Removal"
+msgstr ""
+
+#: templates/option-page.php:421
+msgid "Delete plugin, data, and settings (full removal) when uninstalling."
+msgstr ""
+
+#: templates/option-page.php:422
+msgid "%s Warning: %s This action is irreversible."
+msgstr ""
+
+#: templates/option-page.php:442
+msgid "Available Post Types"
+msgstr ""
+
+#: templates/option-page.php:443
+msgid "Select the Post Types or Custom Taxonomies that should be available for Domain Mapping System."
+msgstr ""
+
+#: templates/option-page.php:452
+msgid "Pages"
+msgstr ""
+
+#: templates/option-page.php:474
+msgid "Posts"
+msgstr ""
+
+#: templates/option-page.php:496
+msgid "Blog Categories"
+msgstr ""
+
+#: templates/option-page.php:520
+msgid "Archive"
+msgstr ""
+
+#: templates/pagination.php:5
+#: templates/pagination.php:21
+msgid "Next page"
+msgstr ""
+
+#: templates/pagination.php:10
+#: templates/pagination.php:26
+msgid "Last page"
+msgstr ""
+
+#: templates/pagination.php:13
+msgid "Current Page"
+msgstr ""
+
+#: templates/pagination.php:16
+msgid "of"
+msgstr ""
+
+#: templates/screen-options.php:5
+msgid "Pagination"
+msgstr ""
+
+#: templates/screen-options.php:6
+msgid "Number of mappings per page:"
+msgstr ""
+
+#: templates/screen-options.php:10
+msgid "Number of values per mapping:"
+msgstr ""
+
+#: templates/screen-options.php:24
+msgid "Screen Options"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:16
+#: templates/seo/yoast/settings.php:205
+msgid "To customize Yoast meta content per domain, please %s"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:25
+#: templates/seo/yoast/settings.php:190
+msgid "Please enable Duplicate SEO Options setting in %s."
+msgstr ""
+
+#: templates/seo/yoast/settings.php:26
+#: templates/seo/yoast/settings.php:191
+#: templates/seo/yoast/settings.php:196
+msgid "Domain Mapping System settings"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:54
+#: templates/seo/yoast/settings.php:229
+msgid "SEO"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:60
+#: templates/seo/yoast/settings.php:235
+msgid "Social"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:69
+#: templates/seo/yoast/settings.php:244
+msgid "Title"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:79
+#: templates/seo/yoast/settings.php:254
+msgid "Description"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:89
+#: templates/seo/yoast/settings.php:264
+msgid "Keywords"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:102
+msgid "Social Image"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:111
+#: templates/seo/yoast/settings.php:150
+msgid "Remove image"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:117
+msgid "Social Title"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:122
+msgid "Social title"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:127
+msgid "Social Description"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:132
+msgid "Social description"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:139
+msgid "Twitter Image"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:156
+msgid "Twitter Title"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:161
+msgid "Twitter title"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:166
+msgid "Twitter Description"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:171
+msgid "Twitter description"
+msgstr ""
+
+#: templates/seo/yoast/settings.php:195
+msgid "Please ensure this published resource has a mapping configured in %s. Currently, it is not configured."
+msgstr ""
